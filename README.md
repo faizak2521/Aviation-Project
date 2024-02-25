@@ -2,11 +2,11 @@
 # Airplane Aviation Project in Python: Developed a Python project focusing on airplane aviation, utilizing object-oriented programming principles to simulate real-world scenarios.
 # Author: Faiza Khan
 
-"""
+def data_prompt():
+    """
     This function prompts the user for flight data and validates it.
     It returns the flight phase and current angle to the caller.
-"""
-def data_prompt():
+    """
 
     flight_status = 0  # Initializing flight status
     current_angle = 0  # Initializing current angle
