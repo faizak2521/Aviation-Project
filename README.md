@@ -1,6 +1,5 @@
 # FLight Project
 # Airplane Aviation Project in Python: Developed a Python project focusing on airplane aviation, utilizing object-oriented programming principles to simulate real-world scenarios.
-# Python Airways Project
 # Author: Faiza Khan
 
 def data_prompt():
@@ -161,7 +160,7 @@ def main():
             previous_selection = flight_phase
         elif flight_phase == 4:
             save_flight_data("Flight Successful", 0, "Taxi-to-Terminal")  # Logging successful flight
-            break  # Exiting loop if flight is successful
+            break  # Exiting loop if the flight is successful
         else:
             save_flight_data(flight_phase, angle, "Invalid data")  # Logging invalid data
             print("\nInvalid data received, please try again with a valid entry.")
