@@ -4,7 +4,7 @@ def prompt_flight_data():
     """
     Prompts the user for flight data and validates it.
     Returns the flight phase and current angle to the caller.
-    """
+    """ 
     flight_status = 0  # Initializing flight status
     current_angle = 0  # Initializing current angle
 
